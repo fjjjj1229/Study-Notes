@@ -1,0 +1,2 @@
+ sbux_df[’Simple return’] = sbux_df[’Adj Close’] + / sbux_df[’Adj Close’].shift(1) - 1
+# shift(1) shows data from AR(1)
